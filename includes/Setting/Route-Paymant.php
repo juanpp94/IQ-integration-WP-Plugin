@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 use Yoast\WP\SEO\Content_Type_Visibility\Application\Content_Type_Visibility_Watcher_Actions;
 
 function IQ_get_payment_inquiry()
@@ -57,6 +58,8 @@ function IQ_post_create_payment(){
 
 
 
+=======
+>>>>>>> 9982e63521184c51977645d841aa1b0541fd75b6
 ?>
 
 
