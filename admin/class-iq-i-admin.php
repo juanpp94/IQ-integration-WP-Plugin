@@ -232,5 +232,10 @@ class Iq_I_Admin {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/iq-i-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
-
 }
+?>
+
+<script>
+    import {createpay} from "../includes/Payment/js/servicesbutonpayment.js"
+	createpay();
+	</script>
